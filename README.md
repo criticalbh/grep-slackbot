@@ -16,6 +16,7 @@ Slackbot to tail and grep files
 `@tailbot start tail /var/log/output.txt, Error, Exception` -> Will tail output.txt and grep for Error or Exception
 >Starting to tail `Error, Exception ` in `/var/log/output.txt` at: 11:28:48 GMT+0100 (CET)
 >...NullPointerException...
+
 >...MyCustomException...
 etc
 
@@ -24,4 +25,5 @@ etc
 
 `@tailbot stop`
 >Overall time: 10126 ms.
+
 >Ending to tail at: 11:28:58 GMT+0100 (CET)
