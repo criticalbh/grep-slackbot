@@ -1,0 +1,37 @@
+{
+  "name": "tail-slack-bot",
+  "version": "1.0.0",
+  "description": "Slackbot that is subscribed to tail.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/grunt",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "tail",
+    "slackbot",
+    "slack",
+    "bot",
+    "node"
+  ],
+  "author": "Admir Sabanovic <admir_sabanovic@live.com> (dev.ba)",
+  "license": "WTFPL",
+  "dependencies": {
+    "@types/node": "^7.0.5",
+    "@types/rx": "^4.1.1",
+    "botkit": "^0.5.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-uglify": "^2.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-nodemon": "^0.4.2",
+    "grunt-ts": "^6.0.0-beta.11",
+    "grunt-tslint": "^4.0.1",
+    "path": "^0.12.7",
+    "rxjs": "^5.1.1",
+    "tslint": "^4.4.2",
+    "typescript": "^2.1.6",
+    "webpack": "^2.2.1"
+  }
+}
